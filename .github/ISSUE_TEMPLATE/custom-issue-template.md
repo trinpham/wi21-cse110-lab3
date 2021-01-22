@@ -1,6 +1,6 @@
 ---
 name: custom issue template
-about: describe your issue here
+about: issue template/todo list
 title: ''
 labels: ''
 assignees: ''
@@ -8,6 +8,7 @@ assignees: ''
 ---
 
 ### issue
+<write issue here>
 
 ### todo
 - [ ] todo1
