@@ -1,3 +1,9 @@
+@media screen and (max-width: 500pt) {
+    body {
+      background-color: rgb(247, 253, 255);
+    }
+}
+
 * {
     text-align: center;
     color: rgb(119, 5, 5);
@@ -58,6 +64,36 @@ canvas {
     left: -275px;
     top: 0px;
     z-index: -1;
+  }
+
+div > div > img {
+    width: 50%;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #a3bbce;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+  }
+
+.grid > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
   }
 
 /* start of combinators */
