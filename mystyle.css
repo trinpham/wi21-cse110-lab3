@@ -1,10 +1,13 @@
 * {
     text-align: center;
     color: rgb(119, 5, 5);
+    margin: auto;
   }
 
 .center {
     text-align: center;
+    font-size: 5vw;
+    text-decoration: underline;
   }
 
 #para1 {
@@ -19,6 +22,10 @@
 li {
     text-align: left;
     color: #b65a13;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
 a[target] {
@@ -27,30 +34,47 @@ a[target] {
 
 a:hover {
     color: hotpink;
+    font-size: 150%;
   }
 
 /* start of combinators */
 h1, p {
     background-color: rgba(192, 166, 184, 0.5);
+    margin: 25px 50px 75px 100px;
   }
 
 ul li {
     list-style-type: circle;
+    font-size: 0.5cm;
   }
 
 ol > li {
     background-color: rgb(147, 197, 248);
+    font-size: 10pt;
   }
 
 h4 ~ h5 {
     color: red;
+    font-size: 10px;
   }
 
 li + li {
     color: hsla(9, 82%, 47%, 0.7);
+    font-size: 15px;
   }
 
 span.span {
     color: hsl(224, 66%, 31%);
-}
+    font-size: 1.4em;
+    padding: 25px 50px 75px 100px;
+  }
 /* end of combinators */
+
+img {
+    height: 50%;
+    width: 400px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+ }
