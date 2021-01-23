@@ -6,7 +6,7 @@
 
 .center {
     text-align: center;
-    font-size: 5vw;
+    font-size: 2vw;
     text-decoration: underline;
   }
 
@@ -30,6 +30,7 @@ li {
 
 a[target] {
     background-color: #9fe2c1;
+    font-family: 'Oswald', sans-serif;
   }
 
 a:hover {
@@ -37,10 +38,32 @@ a:hover {
     font-size: 150%;
   }
 
+a:active {
+    color: #00FF00;
+  }
+
+iframe {
+    max-width: 25%;
+    min-width: 25%;
+  }
+
+svg {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+
+canvas {
+    position: relative;
+    left: -275px;
+    top: 0px;
+    z-index: -1;
+  }
+
 /* start of combinators */
 h1, p {
     background-color: rgba(192, 166, 184, 0.5);
-    margin: 25px 50px 75px 100px;
+    margin: 10px 10px 10px 10px;
   }
 
 ul li {
@@ -48,9 +71,14 @@ ul li {
     font-size: 0.5cm;
   }
 
+div > ul > li {
+    display: inline;
+  }
+
 ol > li {
     background-color: rgb(147, 197, 248);
     font-size: 10pt;
+    width: 200px;
   }
 
 h4 ~ h5 {
@@ -66,7 +94,8 @@ li + li {
 span.span {
     color: hsl(224, 66%, 31%);
     font-size: 1.4em;
-    padding: 25px 50px 75px 100px;
+    padding: 10px 10px 10px 10px;
+    display: block;
   }
 /* end of combinators */
 
