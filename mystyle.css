@@ -1,8 +1,50 @@
-body {
-    /* background-color: lightblue; */
+* {
+    text-align: center;
+    color: rgb(119, 5, 5);
   }
-  
-  h1 {
-    /* color: navy; */
-    /* margin-left: 20px; */
+
+.center {
+    text-align: center;
   }
+
+#para1 {
+    text-align: center;
+    color: rgb(64, 11, 124);
+  }
+
+li {
+    text-align: left;
+    color: rgb(182, 90, 19);
+  }
+
+a[target] {
+    background-color: rgb(159, 226, 192);
+  }
+
+a:hover {
+    color: hotpink;
+  }
+
+h1, p {
+    background-color: rgb(192, 166, 184);
+  }
+
+ul li {
+    list-style-type: circle;
+  }
+
+ol > li {
+    background-color: rgb(147, 197, 248);
+  }
+
+h4 ~ h5 {
+    color: red;
+  }
+
+li + li {
+    color: rgb(116, 99, 99);
+  }
+
+span.span {
+    color: blue;
+}
